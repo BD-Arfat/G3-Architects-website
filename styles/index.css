@@ -150,8 +150,11 @@
   display: flex;
   justify-content: space-around;
   /* align-items: center; */
-  gap: 30px;
+  gap: 100px;
   margin-top: 130px;
+}
+.features-part-one {
+  width: 50%;
 }
 .features-part-one h1 {
   color: rgb(19, 19, 19);
@@ -190,4 +193,18 @@
   letter-spacing: 0%;
   text-align: left;
   margin-top: 7px;
+}
+.features-part-two {
+  position: relative;
+}
+.experience-box {
+  border-radius: 8px;
+  text-align: center;
+  background: rgb(255, 144, 14);
+  padding: 30px;
+  width: 20%;
+  color: white;
+  position: absolute;
+  right: 560px;
+  bottom: 80px;
 }
