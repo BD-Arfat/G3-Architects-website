@@ -43,3 +43,50 @@
 .background-color {
   background: rgba(255, 144, 14, 0.1);
 }
+
+/* banner section */
+.banner {
+  max-width: 1200px;
+  margin: 90px auto;
+}
+.banner-container {
+  max-width: 860px;
+  margin: 0 auto;
+  text-align: center;
+}
+.banner-container h1 {
+  color: rgb(19, 19, 19);
+  font-family: Work Sans;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 75px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.banner-container p {
+  color: rgb(114, 114, 114);
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.banner-container button {
+  border-radius: 8px;
+  border: none;
+  padding: 21px 25px;
+  background: rgb(255, 144, 14);
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 70px;
+}
+.banner-image img {
+  max-width: 1200px;
+  padding-bottom: 45px;
+}
